@@ -14,7 +14,7 @@ const Map = () => {
           {/* Información */}
           <div className="col-md-6 text-center">
             <img
-              src="/img/1.png" // Asegúrate de que la ruta sea correcta
+              src="/img/1.webp" // Asegúrate de que la ruta sea correcta
               alt="Logo Complejo Don H"
               className="img-fluid mb-4"
               style={{ maxWidth: "180px" }} // Logo más grande

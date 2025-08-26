@@ -18,7 +18,7 @@ const ServicesMap = () => {
         <div className="col-md-5">
           <div className="image-container shadow-lg">
             <img
-              src="/img/pileta-2.jpeg"
+              src="/img/pileta-2.webp"
               alt="Alojamiento"
               className="img-fluid service-image"
             />

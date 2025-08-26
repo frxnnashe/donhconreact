@@ -3,28 +3,28 @@ import "../assets/css/CarouselUnidad.css";
 
 const images = [
   {
-    src: "public/img/IMG_4944.png",
-    thumb: "public/img/IMG_4944.png",
+    src: "/img/IMG_4944.webp",
+    thumb: "/img/IMG_4944.webp",
   },
   {
-    src: "public/img/IMG_4948.png",
-    thumb: "public/img/IMG_4948.png",
+    src: "/img/IMG_4948.webp",
+    thumb: "/img/IMG_4948.webp",
   },
   {
-    src: "public/img/IMG_4951.png",
-    thumb: "public/img/IMG_4951.png",
+    src: "/img/IMG_4951.webp",
+    thumb: "/img/IMG_4951.webp",
   },
   {
-    src: "public/img/IMG_4950.png",
-    thumb: "public/img/IMG_4950.png",
+    src: "/img/IMG_4950.webp",
+    thumb: "/img/IMG_4950.webp",
   },
   {
-    src: "public/img/IMG_49234.png",
-    thumb: "public/img/IMG_49234.png",
+    src: "/img/IMG_49234.webp",
+    thumb: "/img/IMG_49234.webp",
   },
   {
-    src: "public/img/IMG_4952.png",
-    thumb: "public/img/IMG_4952.png",
+    src: "/img/IMG_4952.webp",
+    thumb: "/img/IMG_4952.webp",
   },
 ];
 

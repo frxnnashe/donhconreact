@@ -8,7 +8,7 @@ body {
 
 /* Hero Section */
 .hero {
-    background-image: url('../public/img/portada.jpeg'); 
+    background-image: url('/img/portada.webp'); 
     background-size: cover;
     background-position: center;
     color: white;
@@ -207,7 +207,7 @@ footer a {
 
 .anos-servicio {
     position: relative;
-    background-image: url('../public/img/IMG_5080.png'); /* Ajusta la imagen */
+    background-image: url('/img/IMG_5080.webp'); /* Ajusta la imagen */
     background-size: cover;
     background-position: center;
     height: 60vh;
@@ -299,7 +299,8 @@ footer a {
   }
   
   .image-container {
-    margin-right: 30px; /* Espacio entre imagen y texto */
+    margin-right: 20px; /* Espacio entre imagen y texto */
+    margin-bottom: 30px;
   }
   
   p {
@@ -567,4 +568,54 @@ footer {
     background-color: rgba(255, 255, 255, 0.1);
     color: #ffffff;
   }
-  
+  /* Animación del logo solo en escritorio */
+  .navbar-brand.logo img {
+  transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+/* Desactivar animación y rotación en móviles */
+@media (max-width: 767.98px) {
+  .navbar-brand.logo img {
+    transform: none !important;
+    filter: none !important;
+  }
+}
+
+/* Activar animación en pantallas grandes */
+@media (min-width: 768px) {
+  .navbar-brand.logo:hover img {
+    transform: rotate(10deg) scale(1.1);
+    filter: brightness(1.2);
+  }
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 7rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .anos-servicio-content h2{
+    font-size: 2.9rem;
+  }
+.anos-servicio-content p {
+ font-size: 1.5rem;
+}
+}
+body {
+  overflow-x: hidden;
+}
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+.titulo-unidad {
+  font-size: clamp(2rem, 6vw, 3rem);
+  font-weight: 700;
+  text-align: center;
+}

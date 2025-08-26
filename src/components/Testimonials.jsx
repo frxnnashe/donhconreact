@@ -5,17 +5,17 @@ const reviews = [
   {
     name: "Romina Micaela",
     text: "El complejo es tal cual a las fotos. Muy lindo, limpio, con pileta, parrilla y estacionamiento. La zona tranquila con el balneario cerca, varias despensas cerca. Te recibe Gustavo, muy amable y predispuesto a lo que necesites!",
-    image: "/img/user1.png",
+    image: "/img/user1.webp",
   },
   {
     name: "Natali Rios",
     text: "Excelente lugar, venimos de Villa Mercedes (San Luis), la verdad la pasamos muy bien. El dueño Gustavo es muy amable y servicial!! Recomendable 100%, muchas gracias por todo Gustavo!! Buen año! Miguel, Natalia y Josefina!",
-    image: "/img/user2.png",
+    image: "/img/user2.webp",
   },
   {
     name: "Emiliano Gongora",
     text: "Excelente ubicación, muy buena atención de Gustavo. Muy cómodo y recomendable para disfrutar en familia!",
-    image: "/img/user3.png",
+    image: "/img/user3.webp",
   },
 ];
 
@@ -30,7 +30,7 @@ const Testimonials = () => {
       </p>
       <div className="row">
         {reviews.map((review, index) => (
-          <div key={index} className="col-md-4">
+          <div key={index} className="col-md-4 mb-4">
             <div className="card shadow-lg p-4 text-center" style={{ fontSize: "1.1rem" }}>
               <div className="stars mb-2">
                 {[...Array(5)].map((_, i) => (

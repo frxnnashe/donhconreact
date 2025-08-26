@@ -6,7 +6,7 @@ const Footer = () => {
     <footer
       className="text-white py-4 "
       style={{
-        backgroundImage: "url('/img/IMG_5078.png')", // Usa la imagen que me enviaste
+        backgroundImage: "url('/img/IMG_5078.webp')", // Usa la imagen que me enviaste
         backgroundSize: "cover",
         backgroundPosition: "center",
         position: "relative",
