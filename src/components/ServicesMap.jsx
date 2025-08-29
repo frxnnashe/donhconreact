@@ -28,7 +28,7 @@ const ServicesMap = () => {
         {/* Descripción y Servicios */}
         <div className="col-md-7">
           <p>
-            Estamos ubicados <strong>a 10 cuadras del centro de la ciudad de Villa
+            Estamos ubicados <strong>a 12 cuadras del centro de la ciudad de Villa
             Carlos Paz</strong>, a 50 metros del Rio San Antonio. Elegancia, comodidad,
             seguridad, calidad y servicio al mejor precio, estas son algunas de
             las características que convierten a nuestras instalaciones en un

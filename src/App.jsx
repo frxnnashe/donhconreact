@@ -15,6 +15,8 @@ import Monoambiente from "./pages/mono.jsx";
 import Carousel from "./components/Carousel.jsx";
 import WhatsAppButton from "./components/WhatsAppButton.jsx";
 import ScrollToTop from "./components/ScrollToTop.jsx";
+import ModernCarousel from "./components/Carousel.jsx";
+
 function App() {
   console.log("App se está renderizando");
   return (
@@ -25,7 +27,7 @@ function App() {
         <Route path="/" element={
           <>
             <Hero />
-            <Carousel/>
+            <ModernCarousel/>
             <Gallery />
             <div style={{ marginTop: "50px" }}></div>
             <AñosServicio />
