@@ -7,13 +7,13 @@ const images = [
     alt: "Vista principal de la casa"
   },
   {
-    src: "/img/IMG_4948.webp",
-    thumb: "/img/IMG_4948.webp",
+    src: "/img/IMG_4947.webp",
+    thumb: "/img/IMG_4947.webp",
     alt: "Living comedor"
   },
   {
-    src: "/img/IMG_4951.webp",
-    thumb: "/img/IMG_4951.webp",
+    src: "/img/IMG_5916.webp",
+    thumb: "/img/IMG_5916.webp",
     alt: "Dormitorio principal"
   },
   {
@@ -22,13 +22,13 @@ const images = [
     alt: "Cocina equipada"
   },
   {
-    src: "/img/IMG_49234.webp",
-    thumb: "/img/IMG_49234.webp",
+    src: "/img/IMG_6076.webp",
+    thumb: "/img/IMG_6076.webp",
     alt: "Área exterior"
   },
   {
-    src: "/img/IMG_4952.webp",
-    thumb: "/img/IMG_4952.webp",
+    src: "/img/IMG_5917.webp",
+    thumb: "/img/IMG_5917.webp",
     alt: "Baño completo"
   }
 ];

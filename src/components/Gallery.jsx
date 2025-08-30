@@ -46,7 +46,7 @@ const OptimizedGallery = () => {
           </div>
           <div className="col-md-4 d-flex">
             <OptimizedImage 
-              src="/img/hab-1.webp" 
+              src="/img/IMG_4906.webp" 
               alt="Habitación principal con vista" 
               className="gallery-img"
               aspectRatio="4/3"
@@ -102,7 +102,7 @@ const OptimizedGallery = () => {
           </div>
           <div className="col-md-4 d-flex">
             <OptimizedImage 
-              src="/img/quincho.webp" 
+              src="/img/IMG_6038.webp" 
               alt="Quincho y área de parrilla" 
               className="gallery-img"
               aspectRatio="4/3"

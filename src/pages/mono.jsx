@@ -17,8 +17,8 @@ const images = [
     alt: "Cocina equipada"
   },
   {
-    src: "/img/IMG_0736.webp",
-    thumb: "/img/IMG_0736.webp",
+    src: "/img/IMG_6038.webp",
+    thumb: "/img/IMG_6038.webp",
     alt: "Baño privado"
   },
   {
