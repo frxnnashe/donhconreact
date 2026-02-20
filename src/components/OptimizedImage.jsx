@@ -15,8 +15,8 @@ const useLazyImage = () => {
         }
       },
       {
-        threshold: 0.1,
-        rootMargin: '50px' // Comienza a cargar 50px antes de ser visible
+        threshold: 0.01,
+        rootMargin: '100px' // Comienza a cargar 100px antes de ser visible
       }
     );
 
@@ -30,6 +30,16 @@ const useLazyImage = () => {
   return { isLoaded, isInView, setIsLoaded, imgRef };
 };
 
+// Generar srcset para imágenes responsivas
+const generateSrcSet = (src) => {
+  if (!src || typeof src !== 'string') return '';
+  
+  const basePath = src.substring(0, src.lastIndexOf('.'));
+  const extension = src.substring(src.lastIndexOf('.'));
+  
+  return `${src} 1x, ${basePath}${extension} 2x`;
+};
+
 // Componente de imagen optimizada
 const OptimizedImage = ({ 
   src, 
@@ -38,6 +48,8 @@ const OptimizedImage = ({
   priority = false,
   aspectRatio = 'auto',
   placeholder = true,
+  sizes = '100vw',
+  quality = 85,
   ...props 
 }) => {
   const { isLoaded, isInView, setIsLoaded, imgRef } = useLazyImage();
@@ -59,6 +71,16 @@ const OptimizedImage = ({
       };
       
       img.src = src;
+      
+      // Preload hint para el navegador
+      if (priority) {
+        const link = document.createElement('link');
+        link.rel = 'preload';
+        link.as = 'image';
+        link.href = src;
+        link.type = 'image/webp';
+        document.head.appendChild(link);
+      }
     }
   }, [src, isInView, priority]);
 
